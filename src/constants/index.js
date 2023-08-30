@@ -14,10 +14,12 @@ import {
     mongodb,
     git,
     figma,
+    python,
     docker,
     meta,
     starbucks,
     tesla,
+    Boeing,
     shopify,
     carrent,
     jobit,
@@ -46,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Cloud Application Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Machine Learning Engineer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Quant Analyst",
       icon: creator,
     },
   ];
@@ -105,8 +107,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "python",
+      icon: python,
     },
     {
       name: "docker",
@@ -129,44 +131,22 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Developement Intern",
+      company_name: "Boeing",
+      icon: Boeing,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Created Fast API endpoints for Python libraries, enhancing their accessibility.",
+        "Leveraged Docker to seamlessly deploy and utilize the libraries across various environments.",
+        "Boosted utility by streamlining access, ensuring smooth operations across diverse setups.",
+        "Took a proactive role in optimizing the software development lifecycle.",
+        "Crafted comprehensive test scripts to ensure thorough and efficient testing.",
+        "Accelerated the CI/CD pipeline by automating testing and deployment processes.",
+        "Resulted in faster software releases, improving overall efficiency and productivity.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+
   ];
   
   const testimonials = [
@@ -198,20 +178,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "College Predictor",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Created a project that estimates the college a student can apply to based on their performance in engineering entrance exams, Helped students make informed decisions about their college applications.",
       tags: [
         {
-          name: "react",
+          name: "MySql",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Django",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Python",
           color: "pink-text-gradient",
         },
       ],
@@ -219,20 +199,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Smart Cash",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed Smart Cash Android app for streamlined cash management, providing users with an intuitive interface and real-time expense tracking. Implemented robust security measures and efficient budgeting features to enhance financial planning.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Android Studio",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SQLite",
           color: "pink-text-gradient",
         },
       ],
