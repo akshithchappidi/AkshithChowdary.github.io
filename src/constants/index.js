@@ -118,16 +118,16 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Engineering Virtual Intern",
+      company_name: "Goldman Sachs",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conducted in-depth research on password security as an intern at Goldman Sachs, with a specific focus on hash functions.",
+        "Gained practical experience and expertise in various hash algorithms and their critical role in password encryption.",
+        "Developed the ability to decipher passwords, enhancing my proficiency in cybersecurity measures.",
+        "Expanded my understanding of cybersecurity in the digital era through hands-on work and practical engagement with password encryption techniques.",
       ],
     },
     {
