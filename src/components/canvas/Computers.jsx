@@ -53,8 +53,12 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  // If isMobile is true, return null to render nothing
+  if (isMobile) {
+    return null;
+  }
+
   return (
-    
     <Canvas
       frameloop='always'
       shadows
@@ -73,7 +77,6 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas>
-   
   );
 };
 
